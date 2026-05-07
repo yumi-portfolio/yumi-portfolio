@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>GOTO YUMI | Portfolio</title>
+
+  <meta name="description" content="後藤佑実のポートフォリオ。Webデザインを中心に制作実績を掲載しています。" />
+  <meta name="keywords" content="後藤佑実, ポートフォリオ, Webデザイン, バナーデザイン, イラスト" />
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="work-detail.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="#top">GOTO YUMI</a>
+
+      <nav class="site-header__nav">
+        <a href="#work">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="site-header__contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__visual" aria-hidden="true">
+        <img src="./images/hero-bg.png" alt="" class="hero__bg" />
+
+        <img src="./images/hero-mountain.02.png" alt="" class="hero__mountain hero__mountain--back" />
+        <img src="./images/hero-cat.02.svg" alt="" class="hero__cat hero__cat--02" />
+        <img src="./images/hero-cat.01.svg" alt="" class="hero__cat hero__cat--01" />
+        <img src="./images/hero-mountain.01.png" alt="" class="hero__mountain hero__mountain--front" />
+        <div class="hero__dots-fade" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">
+            <span class="line-1">GOTO</span>
+            <span class="line-2">YUMI</span>
+            <span class="sub">PORTFOLIO</span>
+         </h1>
+
+          <p class="hero__meta">Web / Graphic Design</p>
+
+          <a href="#work" class="hero__btn">View works →</a>
+        </div>
+      </div>
+</section>
+
+    <section class="works-section" id="work">
+      <div class="works-section__bg"></div>
+
+      <div class="container works-shell">
+        <div class="section-head section-head--center">
+          <p class="section-kicker">・ 作品紹介 ・</p>
+          <h2>Work</h2>
+          <p class="section-lead">Webサイトからグラフィックまで、用途に合わせて伝わるデザインを制作しています。</p>
+        </div>
+
+        <section class="work-block work-block--primary">
+          <div class="work-block__head">
+            <p class="work-block__eyebrow">Main Works</p>
+            <h3 class="work-block__title">Web / LP Design</h3>
+          </div>
+
+          <div class="work-grid work-grid--two-col">
+            <article class="work-card work-card--large">
+              <a class="work-card__image" href="./work1.html">
+                <img src="./images/mockup-cafe.png" alt="Cafeサイト a-ria coffee" />
+              </a>
+              <div class="work-card__meta">
+                <span class="work-card__badge">仮想</span>
+              </div>
+              <h3 class="work-card__title">Cafeサイト</h3>
+              <p class="work-card__sub">a-ria coffee</p>
+            </article>
+
+            <article class="work-card work-card--large">
+              <a class="work-card__image" href="./work2.html">
+                <img src="./images/mockup-IT.png" alt="フリーランス転職サイト LP" />
+              </a>
+              <div class="work-card__meta">
+                <span class="work-card__badge">クライアントワーク</span>
+              </div>
+              <h3 class="work-card__title">フリーランス転職サイト LP</h3>
+              <p class="work-card__sub">Design</p>
+            </article>
+
+            <article class="work-card work-card--large">
+              <a class="work-card__image" href="./work3.html">
+                <img src="./images/mockup-cosme.png" alt="オーガニックコスメ LP" />
+              </a>
+              <div class="work-card__meta">
+                <span class="work-card__badge">自主制作</span>
+              </div>
+              <h3 class="work-card__title">オーガニックコスメ LP</h3>
+              <p class="work-card__sub">Design</p>
+            </article>
+
+            <article class="work-card work-card--large">
+              <a class="work-card__image" href="./work4.html" >
+                <img src="./images/mockup-portfolio.png" alt="ポートフォリオ" class="mockup-fit"/>
+              </a>
+              <div class="work-card__meta">
+                <span class="work-card__badge">自主制作</span>
+              </div>
+              <h3 class="work-card__title">ポートフォリオ</h3>
+              <p class="work-card__sub">Design</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="work-block">
+          <div class="work-block__head">
+            <p class="work-block__eyebrow">Graphic Works</p>
+            <h3 class="work-block__title">Banner Design</h3>
+          </div>
+
+          <div class="banner-grid">
+            <a class="thumb-card" href="./banner1.html">
+              <img src="./images/camp-01.png" alt="バナー作品1" />
+            </a>
+
+            <a class="thumb-card" href="./banner2.html">
+              <img src="./images/cosme.png" alt="バナー作品2" />
+            </a>
+
+            <a class="thumb-card" href="./banner3.html">
+              <img src="./images/mobile-02.png" alt="バナー作品3" />
+            </a>
+          </div>
+        </section>
+
+        <section class="work-block">
+          <div class="work-block__head">
+            <p class="work-block__eyebrow">Graphic Works</p>
+            <h3 class="work-block__title">Poster Design</h3>
+          </div>
+
+          <div class="poster-grid">
+            <a href="poster1.html" class="poster-card main">
+              <img src="images/poster-1.jpg" alt="和菓子のポスター">
+              <p>いちご饅頭</p>
+            </a>
+
+            <a href="poster2.html" class="poster-card">
+              <img src="images/poster-2.jpg" alt="琥珀糖のポスター">
+              <p>琥珀糖</p>
+            </a>
+
+            <a href="poster3.html" class="poster-card">
+              <img src="images/poster-3.jpg" alt="雨具店のポスター">
+              <p>umbrella shop</p>
+              </a>
+          </div>
+            
+        </section>
+
+        <section class="work-block">
+          <div class="work-block__head">
+            <p class="work-block__eyebrow">Parts Design</p>
+            <h3 class="work-block__title">Icon Design</h3>
+          </div>
+
+          <div class="icon-grid icon-grid--project">
+            <a class="icon-project-card icon-project-card--beige" href="./icon1.html">
+              <div class="icon-project-card__thumb">
+                <img src="./images/logo-marumame.svg" alt="喫茶まるまめのロゴ">
+              </div>
+              <div class="icon-project-card__body">
+                <h4 class="icon-project-card__title">喫茶まるまめ</h4>
+                <p class="icon-project-card__text">
+                  和カフェを想定した、親しみやすく温かみのあるロゴデザイン。
+                </p>
+                <span class="icon-project-card__link">View more</span>
+              </div>
+           </a>
+
+            <a class="icon-project-card icon-project-card--gray" href="./icon2.html">
+              <div class="icon-project-card__thumb">
+                <img src="./images/logo-type.svg" alt="TYPEのロゴ">
+              </div>
+              <div class="icon-project-card__body">
+                <h4 class="icon-project-card__title">TYPE</h4>
+                 <p class="icon-project-card__text">
+                  線と余白の構成を活かした、シンプルで洗練されたロゴデザイン。
+                </p>
+                <span class="icon-project-card__link">View more</span>
+              </div>
+            </a>
+
+            <a class="icon-project-card icon-project-card--blue" href="./icon3.html">
+              <div class="icon-project-card__thumb">
+                <img src="./images/logo-kotori.svg" alt="ことり雑貨店のロゴ">
+              </div>
+              <div class="icon-project-card__body">
+                <h4 class="icon-project-card__title">ことり雑貨店</h4>
+                  <p class="icon-project-card__text">
+                    小鳥のやさしさと雑貨店の世界観を表現したロゴデザイン。
+                  </p>
+                  <span class="icon-project-card__link">View more</span>
+              </div>
+            </a>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <p class="section-kicker">・ About ・</p>
+            <h2>About</h2>
+          </div>
+
+          <div class="about-text">
+            <p>
+              やわらかな世界観と、情報の伝わりやすさを両立したデザインを大切にしています。
+              見た目の美しさだけでなく、目的に沿って伝わること、見る人の心にそっと寄り添うことを意識して制作しています。
+            </p>
+            <a href="./about.html" class="about-text__link">
+              About Me
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <p class="section-kicker">・ Get in Touch ・</p>
+            <h2 class="contact-title">Contact</h2>
+            <p class="contact-lead">
+              制作のご相談・お声がけはメールからお願いします。
+            </p>
+            </div>
+
+            <div class="contact-box">
+              <a class="contact-mail" href="mailto:hyuu41174117@gmail.com">
+                 hyuu41174117@gmail.com
+              </a>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="./images/footer-bg.png" alt="" class="site-footer__bg">
+
+      <div class="container footer-inner">
+        <small>© 2026 Yumi Goto</small>
+     </div>
+    </footer>
+
+  </body>
+</html>
