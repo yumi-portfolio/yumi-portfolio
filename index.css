@@ -1836,3 +1836,80 @@ section {
     padding: 0 28px 34px;
   }
 }
+
+/* =========================
+   SP：About / Contact 見え方調整
+========================= */
+@media (max-width: 767px) {
+  /* About：見出しの下に文章を配置 */
+  .about-section {
+    padding: 100px 0 80px;
+  }
+
+  .about-section .container {
+    display: block;
+    width: min(100% - 48px, 420px);
+  }
+
+  .about-section .section-head {
+    margin-bottom: 28px;
+  }
+
+  .about-text {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .about-text p {
+    font-size: 13px;
+    line-height: 2.1;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .about-text__link {
+    margin-top: 32px;
+  }
+
+  /* Contact：文字切れ防止 */
+  .contact-section {
+    padding: 72px 0 40px;
+    overflow: hidden;
+  }
+
+  .contact-section .container {
+    width: min(100% - 40px, 420px);
+  }
+
+  .contact-section .contact-title {
+    font-size: clamp(44px, 15vw, 64px) !important;
+    letter-spacing: 0.18em !important;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-section .contact-lead {
+    font-size: 12px !important;
+    line-height: 2;
+    letter-spacing: 0.08em !important;
+    margin-bottom: 32px !important;
+  }
+
+  .contact-box {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 18px;
+  }
+
+  .contact-section .contact-mail {
+    display: block;
+    width: 100%;
+    font-size: clamp(11px, 3.2vw, 14px) !important;
+    letter-spacing: 0.08em !important;
+    text-align: center;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+}
